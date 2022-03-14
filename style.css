@@ -1,0 +1,41 @@
+body{
+    background-color:white ; 
+    
+   }
+   .pic{
+     height:200px ;
+     width:300px ;
+     border:10px solid blue;
+    border-radius:15px; 
+   }
+   #beginningSection{
+     background: linear-gradient(#14abb8 0%,#14b82e);
+   }
+   #hobbySection{
+     background: linear-gradient(#14b82e 0%,#94b814 100%)
+   }
+   #lifeSection{
+     background: linear-gradient(#94b814 0%,#1f9974)
+   }
+   .items{
+   text-decoration: none;
+     float: left;
+     padding: 20px;
+     font-size:25px;
+     color:white;
+   }
+   #aboutSection{
+     background:linear-gradient(#94b814 0%,#1c6b75);
+       font-size:20px;
+   }
+   #menu{
+     position:fixed;
+     background-color:white;
+     width:100%;
+   }
+   img:hover{
+     transform: scale(0.9)
+   }
+   .heading{
+     font-size:45px;
+   }
